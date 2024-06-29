@@ -1,0 +1,90 @@
+/* Core */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #020202;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+h1 {
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 1;
+    margin: 0;
+    color: #020202;
+}
+
+h2 {
+    font-size: 48px;
+    color: #020202;
+}
+
+/* Content */
+header {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 12px 0;
+    text-align: center;
+}
+
+main {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+
+/* Images */
+img:hover {
+    cursor: pointer;
+}
+
+/* Custom */
+.container {
+    /*width: 90%;*/
+    margin: 2rem auto;
+}
+
+.gallery {
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 5;
+    column-gap: 0px;
+}
+
+.gallery img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+footer {
+    margin: 192px 0 64px 0;
+}
+
+footer p {
+    opacity: 50%;
+    text-align: center;
+    color: #8a8a8d;
+}
