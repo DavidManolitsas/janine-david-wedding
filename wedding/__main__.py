@@ -7,5 +7,5 @@ if __name__ == "__main__":
 
     with open(f"./app/index.html", "w", encoding="UTF-8") as file:
         file.write(
-            template.render(photos=all_photos(path="app/assets/"))
+            template.render(photos=all_photos(path="app/assets/images"))
         )

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Janine & David</title>
+    <title>Janine and David</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,16 +13,14 @@
 </head>
 <body>
 <main>
-<header>
-    <h1>Janine & David</h1>
-    <h2>18th May 2024</h2>
-</header>
-    <div class="container">
-        <div class="gallery">
-            {% for photo in photos %}
-            <img src="assets/{{ photo.name }}" alt="photo {{ photo.name }}">
-            {% endfor %}
-        </div>
+    <header>
+        <h1>Janine and David</h1>
+        <p>18.05.2024</p>
+    </header>
+    <div class="gallery">
+        {% for photo in photos %}
+        <img src="assets/images/{{ photo.name }}" alt="photo {{ photo.name }}">
+        {% endfor %}
     </div>
     <footer>
         <p>Created by David Manolitsas</p>
