@@ -105,6 +105,10 @@ footer p {
         -webkit-column-count: 2;
         column-count:         2;
     }
+
+    h1 {
+        font-size: 48px;
+    }
 }
 
 @media (max-width: 300px) {

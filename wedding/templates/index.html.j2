@@ -18,7 +18,7 @@
     </header>
     <div class="gallery">
         {% for photo in photos %}
-        <img src="assets/images/{{ photo.name }}" alt="photo {{ photo.name }}">
+        <img src="assets/images/{{ photo.name }}" alt="photo {{ photo.name }}" loading="lazy">
         {% endfor %}
     </div>
     <footer>
