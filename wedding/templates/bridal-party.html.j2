@@ -17,9 +17,9 @@
         <h1>Janine + David</h1>
     </header>
     <ul>
-        <li><a href="#">Getting Ready</a></li>
+        <li><a href="./index.html">Getting Ready</a></li>
         <li><a href="./first-look.html">First Look</a></li>
-        <li><a href=./bridal-party.html">Bridal Party</a></li>
+        <li><a href=#">Bridal Party</a></li>
         <li><a href="./ceremony.html">Ceremony</a></li>
         <li><a href="./couple.html">Couple</a></li>
         <li><a href="./group-photos.html">Group Photos</a></li>
@@ -27,7 +27,7 @@
     </ul>
     <div class="gallery">
         {% for photo in photos %}
-        <img src="assets/images/getting-ready/{{ photo.name }}" alt="photo {{ photo.name }}" loading="lazy">
+            <img src="assets/images/bridal-party/{{ photo.name }}" alt="photo {{ photo.name }}" loading="lazy">
         {% endfor %}
     </div>
     <footer>
