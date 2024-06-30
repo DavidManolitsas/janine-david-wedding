@@ -1,5 +1,13 @@
 venv
 .idea/
-app/index.html
 .DS_Store
 __pycache__/
+
+# project files
+app/index.html
+app/bridal-party.html
+app/ceremony.html
+app/couple.html
+app/first-look.html
+app/group-photos.html
+app/reception.html
